@@ -3,11 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .roboto {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .bebas-neue {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Girls-Fashion</title>
   </head>
-  <body class="p-5">
-    <header class="bg-[rgb(255, 251, 240)] text-black-600 body-font">
+  <body class="p-5 roboto">
+    <header class="bg-[#fffbf0] text-black-600">
       <!-- =========NAVBER====== -->
       <div
         class="container mx-auto flex flex-wrap flex-col md:flex-row items-center justify-center font-medium"
@@ -24,19 +39,17 @@
         </nav>
       </div>
       <!-- =======BANNAR START======= -->
-      <section class="text-black-600 body-font">
+      <section class="text-black-600 roboto">
         <div
-          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center font-medium"
+          class="container mx-auto md:flex md:items-center md:justify-around"
         >
-          <div
-            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-          >
-            <h1 class="text-7xl uppercase">
+          <div class="container mx-auto">
+            <h1 class="text-6xl uppercase bebas-neue">
               <span class="text-orange-400">Be the Penguins</span>
-              <br class="hidden lg:inline-block" />Be
+              <br />Be
               <span class="text-stone-800">of Winter</span>
             </h1>
-            <p class="mb-8 mt-1.5 leading-relaxed">
+            <p class="mb-8 mt-1.5">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag.
             </p>
@@ -67,7 +80,302 @@
         </div>
       </section>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="container mx-auto">
+      <!-- =====W0Man Jacket Section====== -->
+      <section class="my-12">
+        <h3
+          class="text-4xl text-bold text-[rgb(54, 57, 88)] bebas-neue uppercase"
+        >
+          W0Man Jacket
+        </h3>
+
+        <!-- Jacket Card Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!--Jacket Card-1  -->
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="p-5 rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-1.png"
+              alt="Jacket"
+            />
+            <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h3 class="text-[#FABE4C] text-4xl">$234</h3>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!--Jacket Card-2 -->
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="p-5 rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-2.png"
+              alt="Jacket"
+            />
+            <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h3 class="text-[#FABE4C] text-4xl">$234</h3>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!--Jacket Card-3  -->
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="p-5 rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-3.png"
+              alt="Jacket"
+            />
+            <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h3 class="text-[#FABE4C] text-4xl">$234</h3>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========Man Jacket Section========= -->
+      <section class="my-12">
+        <h3 class="text-5xl bebas-neue uppercase text-bold">Man Jacket</h3>
+
+        <!--======= Man Jacket card cointainer ======-->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Man Jacket card-1 -->
+
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-4.png"
+              alt=""
+            />
+            <h4 class="text-2xl font-bold">Snowboard Jacket Mens</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Man Jacket card-2 -->
+
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-5.png"
+              alt=""
+            />
+            <h4 class="text-2xl font-bold">Snowboard Jacket Mens</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Man Jacket card-3 -->
+
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+            <img
+              class="rounded-3xl bg-[#F1F1F1]"
+              src="images/jacket-6.png"
+              alt=""
+            />
+            <h4 class="text-2xl font-bold">Snowboard Jacket Mens</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+              <button
+                class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] border-0 py-4 px-8 font-medium focus:outline-none hover:bg-indigo-600 rounded-xl text-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 inline"
+                >
+                  <path
+                    d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
+                  />
+                </svg>
+
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========Find Section========= -->
+      <section>
+        <div
+          class="flex flex-col-reverse items-center justify-between lg:flex-row"
+        >
+          <!--==== FIND CARD START HERE====-->
+          <div class="p-5">
+            <!-- ===Find Card-1=== -->
+
+            <div
+              class="flex flex-col mb-4 content-center text-center lg:flex-row items-center rounded-3xl drop-shadow-lg bg-[#F1F1F1] p-5 justify-between roboto"
+            >
+              <div class="w-20">
+                <img class="" src="icons/house.png" alt="" />
+              </div>
+              <div class="">
+                <h3 class="text-2xl my-5 font-bold roboto leading-7">
+                  Find the Perfect Fit
+                </h3>
+                <p class="text-x font-normal">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+
+            <!--==== Find Card -2====== -->
+
+            <div
+              class="flex flex-col mb-4 items-center text-center rounded-3xl drop-shadow-lg bg-[#F1F1F1] p-5"
+            >
+              <div class="max-w-20 mb-4">
+                <img class="" src="icons/house.png" alt="" />
+              </div>
+              <div class="lg:content-start">
+                <h3 class="text-2xl text-bold roboto">Find the Perfect Fit</h3>
+                <p>
+                  Everybody is different, which is why we
+                  <br />
+                  offer styles for every body.
+                </p>
+              </div>
+            </div>
+
+            <!--==== Find Card -3======= -->
+
+            <div
+              class="flex flex-col mb-4 items-center text-center rounded-3xl drop-shadow-lg bg-[#F1F1F1] p-5"
+            >
+              <div class="max-w-20 mb-4">
+                <img class="" src="icons/house.png" alt="" />
+              </div>
+              <div>
+                <h3 class="text-2xl text-bold roboto">Find the Perfect Fit</h3>
+                <p>
+                  Everybody is different, which is why we
+                  <br />
+                  offer styles for every body.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--===== FIND CARD END=====-->
+
+          <div class="md:w-1/2 w-5/6 mb-12">
+            <img
+              class="object-cover object-center rounded"
+              alt="hero"
+              src="images/shopping.png"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==========Find Section=========-->
+    </main>
   </body>
 </html>
